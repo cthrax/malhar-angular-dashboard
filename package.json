@@ -47,7 +47,10 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "main": "",
+  "main": [
+    "dist/malhar-angular-dashboard.css",
+    "dist/malhar-angular-dashboard.js"
+  ],
   "scripts": {
     "test": "gulp test"
   }
